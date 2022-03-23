@@ -1,0 +1,102 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 233, 233);
+    
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 8vh;
+}
+
+.nav-left {
+    display: flex;
+    padding-left: 100px;
+    flex: 50%;
+    align-items: center;
+}
+
+nav .nav-left li {
+    display: inline;
+
+}
+
+nav .nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 50%;
+    padding-right: 100px;
+}
+
+nav .nav-right a {
+    background-color: black;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Form */
+
+h2{
+    text-align: center;
+}
+
+form{
+    width: 550px;
+    margin: 50px auto;
+}
+
+form label{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+form input, form select{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 3px rgb(129, 129, 129);
+    padding-left: 10px;
+    font-size: 1.2em;
+}
+
+
+form textarea{
+    width: 100%;
+    resize: vertical;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(100, 100, 100);
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+form button{
+    border: none;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-size: 1.1em;    
+    margin-left: 425px;
+}
+
+
+

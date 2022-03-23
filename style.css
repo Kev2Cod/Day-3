@@ -1,0 +1,137 @@
+/* .nav-left{
+    background-color: aqua;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 8vh;
+}
+
+.nav-left {
+    display: flex;
+    padding-left: 100px;
+    flex: 50%;
+    align-items: center;
+}
+
+nav .nav-left li {
+    display: inline;
+
+}
+
+nav .nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 50%;
+    padding-right: 100px;
+}
+
+nav .nav-right a {
+    background-color: black;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.container {
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 231, 231);]
+}
+
+section {
+    width: 1100px;
+    height: 400px;
+    background-color: rgb(252, 252, 252);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(65, 65, 65, 0.699);
+}
+
+.content{
+    display: flex;
+}
+
+section .section-left {
+    width: 800px;
+}
+
+section .section-left p{
+    text-align: justify;
+    padding-right: 20px;
+}
+
+.content .portfolio{
+    margin: 30px 0;
+}
+
+.content .portfolio .button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.content .portfolio a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
+}
+
+/* Icon Sosmed */
+.content .sosial-media{
+    margin-top: 50px;
+}
+.content .sosial-media a{
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+
+section .section-right{
+    /* flex: 30%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .section-right .card-name{
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(68, 68, 68, 0.671);
+    border-radius: 5px;
+    text-align: center;
+}
+
+section .section-right .card-name img{
+    border-radius: 5px 5px 0px 0px ;
+    width: 300px;
+}
+
+section .section-right p{
+    margin-top: -15px;
+    font-size: .8em;
+}
